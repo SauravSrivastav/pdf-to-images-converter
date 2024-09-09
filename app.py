@@ -7,6 +7,8 @@ import zipfile
 import io
 import logging
 from PIL import Image
+from streamlit_cloud_dependencies import install_dependencies
+
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
